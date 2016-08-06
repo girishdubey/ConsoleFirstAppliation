@@ -10,21 +10,104 @@ namespace ConsoleFirstAppliation
     {
         static void Main(string[] args)
         {
-            int no1, no2;
-            int total = 0;
-            no1 = 5;
-            no2 = 10;
+            int no1, no2, total;
+            no1 = 10;
+            no2 = 5;
+            total = 0;
+
+            //sum of two number
             total = no1 + no2;
             Console.WriteLine(total);
+            //sum of two number
 
-            //////////////////
-            int sumValue1 = Utility.Sum(9, 10);
-            Console.WriteLine(sumValue1);
-            int sumValue2 = Utility.Sum(25, 10);
-            Console.WriteLine(sumValue2);
-            int sumValue3 = Utility.Sum(50, 10);
-            Console.WriteLine(sumValue3);
-            /////////////////
+            //multiplication of two number
+            total = no1 * no2;
+            Console.WriteLine(total);
+            //multiplication of two number
+
+
+
+
+            //float----------------
+
+            float fno1, fno2, ftotal;
+            fno1 = 1.9f;
+            fno2 = fno1;
+            ftotal = 0.0f;
+            //sum of two number
+            ftotal = fno1 + fno2;
+            Console.WriteLine(ftotal);
+
+            total = (int)fno1 + (int)fno2;
+            Console.WriteLine(total);
+
+            total = (int)(fno1 + fno2);
+            Console.WriteLine(total);
+
+
+            //////////////////////////
+            ftotal = fno1 + fno2;
+            Console.WriteLine(ftotal);
+
+            total = Convert.ToInt32(fno1) + Convert.ToInt32(fno2);
+            Console.WriteLine(total);
+
+            total = Convert.ToInt32(fno1 + fno2);
+            Console.WriteLine(total);
+            /////////////////////////
+
+            ftotal = no1 + no2;
+            Console.WriteLine(ftotal);
+            //sum of two number
+
+
+            /////////bool//////////////
+
+            bool flag;
+            flag = true;
+            Console.WriteLine(flag);
+
+
+            /////////bit//////////////
+
+            byte vbit;
+            vbit = 0;    // value can be 0 or 1
+            Console.WriteLine(vbit);
+
+
+            ///////////char//////////////
+
+            char chr = 'a';
+            Console.WriteLine(chr);
+            Console.WriteLine((int)chr);
+
+            char chr2 = 'b';
+            Console.WriteLine(chr2);
+            Console.WriteLine((int)chr2);
+
+            int totalchr = (int)chr + (int)chr2;
+            Console.WriteLine("Sum of two char: " + Convert.ToChar(totalchr) + "(" + totalchr + ")");
+
+            ///////////string//////////////
+
+            string str = "microsoft";
+            Console.WriteLine(str);
+
+            Console.ReadLine();
+
+
+            Console.WriteLine("////////////input from user///////////////");
+            int userNum1, userNum2, userTotal = 0;
+
+            Console.Write("Please enter a number: ");
+            userNum1 = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Please enter a number: ");
+            userNum2 = Convert.ToInt32(Console.ReadLine());
+
+            userTotal = userNum1 + userNum2;
+
+            Console.Write("Total of two numbers: " + userTotal);
+
             Console.ReadLine();
         }
     }
