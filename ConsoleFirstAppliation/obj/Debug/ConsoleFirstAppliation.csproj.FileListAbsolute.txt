@@ -1,0 +1,1 @@
+E:\_project\web\GITHUB\ConsoleFirstAppliation\ConsoleFirstAppliation\bin\Debug\ConsoleFirstAppliation.exe.config
