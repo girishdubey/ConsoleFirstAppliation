@@ -16,6 +16,15 @@ namespace ConsoleFirstAppliation
             no2 = 10;
             total = no1 + no2;
             Console.WriteLine(total);
+
+            //////////////////
+            int sumValue1 = Utility.Sum(9, 10);
+            Console.WriteLine(sumValue1);
+            int sumValue2 = Utility.Sum(25, 10);
+            Console.WriteLine(sumValue2);
+            int sumValue3 = Utility.Sum(50, 10);
+            Console.WriteLine(sumValue3);
+            /////////////////
             Console.ReadLine();
         }
     }
