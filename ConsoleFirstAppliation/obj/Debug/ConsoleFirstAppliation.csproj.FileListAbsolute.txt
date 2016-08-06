@@ -1,1 +1,6 @@
 E:\_project\web\GITHUB\ConsoleFirstAppliation\ConsoleFirstAppliation\bin\Debug\ConsoleFirstAppliation.exe.config
+E:\_project\web\GITHUB\ConsoleFirstAppliation\ConsoleFirstAppliation\bin\Debug\ConsoleFirstAppliation.exe
+E:\_project\web\GITHUB\ConsoleFirstAppliation\ConsoleFirstAppliation\bin\Debug\ConsoleFirstAppliation.pdb
+E:\_project\web\GITHUB\ConsoleFirstAppliation\ConsoleFirstAppliation\obj\Debug\ConsoleFirstAppliation.csprojResolveAssemblyReference.cache
+E:\_project\web\GITHUB\ConsoleFirstAppliation\ConsoleFirstAppliation\obj\Debug\ConsoleFirstAppliation.exe
+E:\_project\web\GITHUB\ConsoleFirstAppliation\ConsoleFirstAppliation\obj\Debug\ConsoleFirstAppliation.pdb
