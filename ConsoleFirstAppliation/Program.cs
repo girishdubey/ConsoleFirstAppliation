@@ -8,7 +8,13 @@ namespace ConsoleFirstAppliation
 {
     class Program
     {
-        static void Main(string[] args)
+        //static void Main(string[] args)
+        //{
+        //    FistClass();
+        //}
+
+
+        public static void FistClass()
         {
             int no1, no2, total;
             no1 = 10;
@@ -110,5 +116,6 @@ namespace ConsoleFirstAppliation
 
             Console.ReadLine();
         }
+
     }
 }
