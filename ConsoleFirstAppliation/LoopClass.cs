@@ -18,6 +18,7 @@ namespace ConsoleFirstAppliation
             DoWhileLoopExample1();
             Console.WriteLine("************For Loop******************");
             ForWhileLoopExample1();
+            ForWhileLoopExample3();
         }
 
         public static void WhileLoopExample1()
@@ -111,7 +112,6 @@ namespace ConsoleFirstAppliation
         {
             for (int i = 0; i < 10; i++)
                 Console.WriteLine(i);
-
             Console.ReadLine();
         }
 
