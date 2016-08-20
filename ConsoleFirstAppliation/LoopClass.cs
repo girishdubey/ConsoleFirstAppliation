@@ -8,20 +8,20 @@ namespace ConsoleFirstAppliation
 {
     class LoopClass
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("************While Loop******************");
-            WhileLoopExample1();
-            Console.WriteLine("************While Loop******************");
-            WhileLoopExample2();
-            Console.WriteLine("************Do While Loop******************");
-            DoWhileLoopExample1();
-            Console.WriteLine("************For Loop******************");
-            ForWhileLoopExample1();
-            ForWhileLoopExample3();
-            Console.WriteLine("************Print Odd Number******************");
-            PrintOddNumber();
-        }
+        //static void Main(string[] args)
+        //{
+        //    Console.WriteLine("************While Loop******************");
+        //    WhileLoopExample1();
+        //    Console.WriteLine("************While Loop******************");
+        //    WhileLoopExample2();
+        //    Console.WriteLine("************Do While Loop******************");
+        //    DoWhileLoopExample1();
+        //    Console.WriteLine("************For Loop******************");
+        //    ForWhileLoopExample1();
+        //    ForWhileLoopExample3();
+        //    Console.WriteLine("************Print Odd Number******************");
+        //    PrintOddNumber();
+        //}
 
         public static void WhileLoopExample1()
         {
