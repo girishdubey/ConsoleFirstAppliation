@@ -19,6 +19,8 @@ namespace ConsoleFirstAppliation
             Console.WriteLine("************For Loop******************");
             ForWhileLoopExample1();
             ForWhileLoopExample3();
+            Console.WriteLine("************Print Odd Number******************");
+            PrintOddNumber();
         }
 
         public static void WhileLoopExample1()
@@ -114,6 +116,22 @@ namespace ConsoleFirstAppliation
                 Console.WriteLine(i);
             Console.ReadLine();
         }
+
+
+        ///////
+
+        public static void PrintOddNumber()
+        {
+            for (int i = 1; i < 20; i++)
+            {
+                if (i % 2 == 0)
+                {
+                    Console.WriteLine(i);
+                }
+            }
+        }
+
+
 
     }
 }
