@@ -8,21 +8,21 @@ namespace ConsoleFirstAppliation
 {
     class ConditionalStatment
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("************If Condition******************");
-            IfCondition();
-            Console.WriteLine("************If else Condition******************");
-            IfElseCondition();
-            Console.WriteLine("************nested If else Condition******************");
-            IfNestedCondition();
-            Console.WriteLine("************Multi If else Condition******************");
-            MultiIfElseCondition();
+        //static void Main(string[] args)
+        //{
+        //    Console.WriteLine("************If Condition******************");
+        //    IfCondition();
+        //    Console.WriteLine("************If else Condition******************");
+        //    IfElseCondition();
+        //    Console.WriteLine("************nested If else Condition******************");
+        //    IfNestedCondition();
+        //    Console.WriteLine("************Multi If else Condition******************");
+        //    MultiIfElseCondition();
 
-            Console.WriteLine("************Switch Case******************");
-            SwitchCaseStatment();
+        //    Console.WriteLine("************Switch Case******************");
+        //    SwitchCaseStatment();
 
-        }
+        //}
 
 
         //if condition
