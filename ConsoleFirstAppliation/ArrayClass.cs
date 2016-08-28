@@ -8,40 +8,40 @@ namespace ConsoleFirstAppliation
 {
     class ArrayClass
     {
-        public static void Main(string[] args)
-        {
-            Console.WriteLine("********1D Array********");
-            Array1D();
-            Console.WriteLine("********2D Array********");
-            Array2D();
+        //public static void Main(string[] args)
+        //{
+        //    Console.WriteLine("********1D Array********");
+        //    Array1D();
+        //    Console.WriteLine("********2D Array********");
+        //    Array2D();
 
-            Utility util = new Utility();
-            util.DispayName("Girish");
+        //    Utility util = new Utility();
+        //    util.DispayName("Girish");
 
-            const int no = 20;
-            int[] numberList = new int[no];
-            for (int i = 0; i < no; i++)
-            {
-                numberList[i] = i * 10;
-            }
-            util.DispayName(numberList);
-
-
+        //    const int no = 20;
+        //    int[] numberList = new int[no]; 
+        //    for (int i = 0; i < no; i++)
+        //    {
+        //        numberList[i] = i * 10;
+        //    }
+        //    util.DispayName(numberList);
 
 
-            const int colno = 3;
-            const int rowno = 4;
-            int[,] numberList2 = new int[rowno, colno];
-            Console.WriteLine("insert data in array");
-            for (int i = 0; i < rowno; i++)
-            {
-                for (int j = 0; j < colno; j++)
-                {
-                    numberList2[i, j] = i * j * 10;
-                }
-            }
-            util.DispayName(numberList2, rowno, colno);
-        }
+
+
+        //    const int colno = 3;
+        //    const int rowno = 4;
+        //    int[,] numberList2 = new int[rowno, colno];
+        //    Console.WriteLine("insert data in array");
+        //    for (int i = 0; i < rowno; i++)
+        //    {
+        //        for (int j = 0; j < colno; j++)
+        //        {
+        //            numberList2[i, j] = i * j * 10;
+        //        }
+        //    }
+        //    util.DispayName(numberList2, rowno, colno);
+        //}
 
         public static void Array1D()
         {

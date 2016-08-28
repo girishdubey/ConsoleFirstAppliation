@@ -43,6 +43,9 @@
   <ItemGroup>
     <Compile Include="ConditionalStatment.cs" />
     <Compile Include="ArrayClass.cs" />
+    <Compile Include="CustomClass2.cs" />
+    <Compile Include="CustomClass.cs" />
+    <Compile Include="Property.cs" />
     <Compile Include="FunctionClass.cs" />
     <Compile Include="LoopClass.cs" />
     <Compile Include="Program.cs" />
